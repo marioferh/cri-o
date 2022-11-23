@@ -358,6 +358,7 @@ var _ = Describe("high_performance_hooks", func() {
 	})
 
 	Describe("setCPUScalingGovernor", func() {
+		// comment
 		var scalingGovernor, scalingAvailableGovernors, scalingGovernorOriginal string
 		cpuDir := filepath.Join(fixturesDir, "cpu")
 		cpuSaveDir := filepath.Join(fixturesDir, "cpuSave")
